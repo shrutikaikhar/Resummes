@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Resume</title>
+  <style>
+ body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+    }
+
+  .header {
+      text-align: center;
+  }
+  .download-btn {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.download-btn:hover {
+  background-color: #45a049;
+}
+
+ .intro {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-left: 5px solid #4CAF50;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.intro h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+    .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px 10px 0 0;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+.download-btn, .btn {
+  background-color: #4CAF50;
+}
+
+.whatsapp {
+  background-color: #25D366;
+}
+
+.twitter {
+  background-color: #1DA1F2;
+}
+.print-btn {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .print-btn:hover {
+      background-color: #45a049;
+    }
+    .profile-img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      border: 4px solid #3498db;S
+    }
+    
+
+    /* Print Styles */
+    @media print {
+      .print-btn {
+        display: none;
+      }
+
+      .profile-img {
+      width: 100%;
+      border-radius: 50%;
+      border: 4px solid #3498db;
+    }
+
+
+    .section {
+      margin-top: 30px;
+    }
+
+    h2 {
+      color: #4CAF50;
+      border-bottom: 2px solid #4CAF50;
+      padding-bottom: 5px;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+    <div class="header">
+    <h1>MY RESUME</h1>
+    <p>Email:shrutikaikhar21@gmail.com | Phone:8459884270</p>
+    <div class="buttons">
+      <!-- Download Button -->
+      <a href="resume.pdf" download class="btn">Download</a>
+    
+      <!-- WhatsApp Button -->
+      <a href="https://wa.me/?text=Check%20out%20my%20resume!" target="_blank" class="btn whatsapp">
+         WhatsApp
+      </a>
+    
+      <!-- Twitter Button -->
+      <a href="https://twitter.com/intent/tweet?text=Check%20out%20my%20resume!" target="_blank" class="btn twitter">
+        Twitter
+      </a>
+      <button class="print-btn" onclick="window.print()">Print</button>
+
+    </div>
+    
+
+  </div>
+  <img src="/image.jpeg" alt="Profile Image" class="profile-img" />
+  
+  <div class="intro">
+    
+    <h2>Introduction</h2>
+    <p>
+      My name is <strong>Shrutika Suresh Ikhar </strong>. I am a student of <strong>P.R. Pote College</strong>, with experience in building responsive and user-friendly websites. I enjoy learning new technologies and turning ideas into reality through code.
+    </p>
+    <p>
+    
+      <strong>Address:</strong> At Post Jalgaon Ta Arvi Dist Wardha<br>
+      <strong>Contact:</strong>8459884270<br>
+      <strong>Email:</strong>shrutikaikhar21@gmail.com
+    </p>
+    
+  </div>
+  <div class="section">
+    <h2>Objective</h2>
+    <p>To obtain a challenging position where I can apply my<strong> skills</strong>, <strong>projects</strong> and <strong>grow professionally</strong>.</p>
+  </div>
+  <div class="section">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>B.Tech-EXTC</strong> - P.R.Pote College, 2023-2027 <Strong>CGPA : 7.6</Strong>
+      <li><strong>HSC</strong> - Municipal Junior Science College,Arvi <strong>- Percentage : 56.00%</strong></li>
+      <li><strong>SSC</strong> - Vidyaniketan English High School,Arvi <strong>-  Percentage : 83.20%</strong></li>  
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Ah- Smart Helmet For Mining</strong></li>
+      <li><strong>Iot Based Smart Plant Watering System</strong></li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Certification/Intership</h2>
+    <ul>
+      <li><strong>Ibase Python Intership</strong></li>
+      
+    </ul>
+  </div>
+
+</body>
+</html>
+
+
+
